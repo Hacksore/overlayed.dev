@@ -15,15 +15,23 @@ import Footer from "../components/footer.astro";
       Welcome to <span class="text-gradient">Overlayed</span>
     </h1>
     <p class="text-center">
-      A modern, <a class="text-primary hover:text-purple-300" target="_blank" href="https://github.com/Hacksore/overlayed">open-source</a>, and free voice chat overlay for Discord.
+      A modern, <a
+        class="text-primary hover:text-purple-300"
+        target="_blank"
+        href="https://github.com/Hacksore/overlayed">open-source</a
+      >, and free voice chat overlay for Discord.
     </p>
     <div class="grid md:grid-cols-2 w-full items-center gap-2">
-      <Card name="User List" desc="See who is in the current voice channel" />
+      <Card name="User List" desc="See who is in the current voice channel">
+        <img src="/img/users.png" alt="User List" class="w-full" />
+      </Card>
       <Card name="Transparent" desc="Crystal clear transparent window" />
       <Card
         name="Always on Top"
         desc="Always stays on top so you can continue working"
-      />
+      >
+        <img src="/img/on-top.png" alt="User List" class="w-full" />
+      </Card>
       <Card
         name="Lightweight"
         desc="Built with tauri an efficient rust framework"
