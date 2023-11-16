@@ -9,31 +9,24 @@ import Footer from "../components/footer.astro";
   <main
     class="min-h-screen w-full flex justify-center items-center flex-col gap-8"
   >
-      <Logo />
+    <Logo />
 
     <h1 class="!mb-0">
       Welcome to <span class="text-gradient">Overlayed</span>
     </h1>
     <p class="text-center">
-      A versatile desktop Discord overlay that seamlessly integrates across
-      platforms, offering flexibility for use wherever you go!
+      A modern, <a class="text-primary hover:text-purple-300" target="_blank" href="https://github.com/Hacksore/overlayed">open-source</a>, and free voice chat overlay for Discord.
     </p>
     <div class="grid md:grid-cols-2 w-full items-center gap-2">
-      <Card
-        name="User List"
-        desc="You can see users in the current voice channel"
-      />
-      <Card
-        name="Transparent"
-        desc="The window can be completely transparent"
-      />
+      <Card name="User List" desc="See who is in the current voice channel" />
+      <Card name="Transparent" desc="Crystal clear transparent window" />
       <Card
         name="Always on Top"
-        desc="The window always stays on top so you can continue working"
+        desc="Always stays on top so you can continue working"
       />
       <Card
-        name="Customizable Setting"
-        desc="The user settings allow configure certain things"
+        name="Lightweight"
+        desc="Built with tauri an efficient rust framework"
       />
     </div>
   </main>
